@@ -1,4 +1,5 @@
 ﻿using System;
+using abstraindoJogoRPG.src.Entities;
 
 namespace abstraindoJogoRPG
 {
@@ -6,11 +7,9 @@ namespace abstraindoJogoRPG
     {
         public static void Main()
         {
-            Hero hero = new Hero("Gabriel",1,10);
-            Hero opponent = new Hero("Ninfus", 10, 40);
-            Console.WriteLine(hero);
-            Console.WriteLine(hero.Attack());
-            Console.WriteLine(opponent);
+            Knight knight = new Knight("Arthur", 10, 100);
+            Console.WriteLine(knight);
+    
             
         }
     }
